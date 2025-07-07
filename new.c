@@ -56,3 +56,15 @@
      printf("This is your uppercase letter: %c", letter - 32);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () {
+     int x = 0;
+     int y = 0;
+     int sum = 0;
+     printf("Enter two numbers: ");
+     scanf( "%d %d", &x, &y);
+     sum = (x + y);
+     printf("The result of sum: %d\n", sum);
+     return 0;
+}
