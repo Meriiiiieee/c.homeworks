@@ -133,3 +133,19 @@
      printf("Cube: %d\n", cube);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () {
+    int a = 0;
+    int b = 0;
+    printf("Enter the value of a: ");
+    scanf("%d", &a);
+    printf("Enter the value of b: ");
+    scanf("%d", &b);
+    printf("before exchange: a = %d, b = %d", a, b);
+    a = a + b;
+    b = a - b;
+    a = a + b;
+    printf("after exchange: a = %d, b = %d", a, b);
+    return 0;
+}
