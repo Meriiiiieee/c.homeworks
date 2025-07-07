@@ -38,3 +38,12 @@
      printf("The result of (x + y)/2 : %f\n", average);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () {
+     printf("Enter the uppercase letter: ");
+     char letter = '\0';
+     scanf("%c", &letter);
+     printf("This is your lowercase letter: %c", letter + 32);
+     return 0;
+}
