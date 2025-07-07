@@ -7,3 +7,4 @@ printf("Entered value is: %d\n ", a);
 
 return 0;
 }
+//
