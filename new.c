@@ -1,4 +1,4 @@
-#include <stdio.h>
+ii#include <stdio.h>
 
  int main () {
      float x = 0;
@@ -148,4 +148,16 @@
     a = a + b;
     printf("after exchange: a = %d, b = %d", a, b);
     return 0;
+}
+//
+#include <stdio.h>
+# define PI 3.14
+ int main () {
+     float radius = 0;
+     float area = 0;
+     printf("Enter the value of radius: ");
+     scanf("%f", &radius);
+     area = PI * radius * radius;
+     printf("The result of area: %f\n", area);
+     return 0;
 }
