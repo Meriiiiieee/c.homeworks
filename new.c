@@ -161,3 +161,19 @@ ii#include <stdio.h>
      printf("The result of area: %f\n", area);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () { 
+     int a = 0;
+     int b = 0;
+     int c = 0;
+   	 int total = 0;
+     int average = 0;
+     printf ("Enter the three numbers:\n");
+     scanf("%d %d %d", &a, &b, &c);
+    total = a + b + c;
+    average = total/3;
+    printf("The result: %d\n", total);
+    printf("The result: %d\n", average);
+     return 0;
+}
