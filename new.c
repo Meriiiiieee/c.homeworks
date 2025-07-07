@@ -22,4 +22,19 @@
      result = (x + y + 21 * x / y - 200);
      printf("Result of the expression (x + y + 21 * x / y - 200) : %f\n",result);
      return 0;
+
+}
+//
+#include <stdio.h>
+ int main () {
+     float x = 0;
+     float y = 0;
+     float average = 0;
+     printf("Enter the value for x: ")
+     scanf("%d", &x);
+     printf("Enter the value of y: ");
+     scanf("%f", &y);
+     average = (x + y)/2;
+     printf("The result of (x + y)/2 : %f\n", average);
+     return 0;
 }
