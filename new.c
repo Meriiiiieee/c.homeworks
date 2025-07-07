@@ -110,3 +110,15 @@
     printf("size of float: %zu\n", sizeof(float));
     return 0;
 }
+//
+#include <stdio.h>
+ int main () { 
+     int x = 0;
+     int y = 0;
+     int reminder = 0;
+     printf("Enter two numbers: ");
+     scanf("%d %d", &x, &y);
+     remainder = x % y;
+     printf("The result: %d", remainder);
+     return 0;
+}
