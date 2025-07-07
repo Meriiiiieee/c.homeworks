@@ -90,4 +90,14 @@
      fahrenheit = (celsius * 9/5) + 32;
      printf("%.2f", celsius, fahrenheit);
      return 0;
+
+}
+// 
+#include <stdio.h>
+ int main () {
+     char a = 0;
+     printf("Enter the character: ");
+     scanf("%c", &a);
+     printf("The ASCII value of : %d", a);
+     return 0;
 }
