@@ -68,3 +68,15 @@
      printf("The result of sum: %d\n", sum);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () {
+     float length = 0;
+     float width = 0;
+     float area = 0;
+     printf("Enter the values of length and width: ");
+     scanf("%f %f", &length, &width);
+     area = length * width;
+     printf("The result of area: %f", area);
+     return 0;
+}
