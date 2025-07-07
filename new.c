@@ -122,3 +122,14 @@
      printf("The result: %d", remainder);
      return 0;
 }
+//
+#include <stdio.h>
+ int main () {
+     int num = 0;
+     int cube = 0;
+     printf("Enter the number: ");
+     scanf("%d", &num);
+     cube = num * num * num;
+     printf("Cube: %d\n", cube);
+     return 0;
+}
