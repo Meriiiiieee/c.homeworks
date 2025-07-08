@@ -1,4 +1,4 @@
-/*
+
 #include <stdio.h>
 
  int main () {
@@ -276,4 +276,3 @@ int main () {
     a = a ^ b;
     printf("After exchange a = %d b = %d\n:", a, b);
 }
-*/
