@@ -1,4 +1,5 @@
-ii#include <stdio.h>
+/*
+#include <stdio.h>
 
  int main () {
      float x = 0;
@@ -177,3 +178,102 @@ ii#include <stdio.h>
     printf("The result: %d\n", average);
      return 0;
 }
+//
+#include <stdio.h>
+int main () {
+    int a = 0;
+    printf("Enter the number: ");
+    scanf("%d", &a);
+    int opposite = ~a + 1;
+    printf("Initial number: %d\n", a);
+    printf("Opposite number: %d\n", opposite );
+    return 0;
+
+}
+//
+#include <stdio.h>
+int main () {
+    int num1 = 0;
+    printf("Enter the number:");
+    scanf("%d", &num1);
+    int result = 1 << num1;
+    printf("degree %d of = %d\n ", num1, result);
+    return 0;
+
+}
+
+#include <stdio.h>
+int main () {
+    int n  = 0;
+    int number = 34;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    int result = number | (1 << n);
+    printf("The bit possition: %d\n", result);
+    return 0;
+}
+
+
+
+#include <stdio.h>
+int main () {
+    int n = 0;
+    int number = 34;
+    printf("enter the number: ");
+    scanf("%d", &n);
+    int result = number & ~ (1 <<  n);
+    printf("After the clear: %d\n", result);
+    return 0;
+
+
+}
+
+
+#include <stdio.h>
+int main () {
+    int n = 0;
+    int number = 34;
+    printf("enter the number: ");
+    scanf("%d", &n);
+    int result = number ^  (1 <<  n);
+    printf("After the toggle: %d\n", result);
+    return 0;
+}
+
+
+#include <stdio.h>
+int main () {
+    int n = 0;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    int result = n << 1;
+    printf("the result of multiply:%d:", result);
+    return 0 ;
+
+
+}
+
+#include <stdio.h>
+int main () {
+    int n = 0;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    int result = n >> 1;
+    printf("The result of the division: %d", result);
+    return 0;
+
+}
+
+#include <stdio.h>
+int main () {
+    int a = 0;
+    int b = 0;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    printf("Before exchange a = %d b = %d\n:", a, b);
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    printf("After exchange a = %d b = %d\n:", a, b);
+}
+*/
